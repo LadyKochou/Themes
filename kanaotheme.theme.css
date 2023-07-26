@@ -1,0 +1,53 @@
+/**
+ * @name Kanao theme
+ * @author Gibbu#1211
+ * @version 2.0.0
+ * @description Display your picture of choice with adjustable blur and brightness.
+ * @source https://github.com/DiscordStyles/FrostedGlass
+ * @invite ZHthyCw
+ * @donate https://paypal.me/IanRGibson
+ * @website https://gibbu.me
+ * @authorId 174868361040232448
+ * @BDEditor Frosted Glass
+*/
+
+@import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
+
+:root {
+  --background-image: url('https://i.pinimg.com/originals/3c/b2/eb/3cb2eb88789dad1ee3d3b87cd0be18c7.jpg');
+  --background-image-blur: 3px;
+  --background-image-size: cover;
+  --background-image-position: center;
+  --popout-image: var(--background-image);
+  --popout-image-blur: 2px;
+  --popout-image-size: cover;
+  --popout-image-position: top left;
+  --overlay-image: var(--background-image);
+  --overlay-image-blur: 2px;
+  --overlay-image-size: auto;
+  --overlay-image-position: center left;
+  --home-button-image: url('https://i.pinimg.com/564x/04/4b/00/044b00fd5540cc3183820cde8d4746aa.jpg');
+  --home-button-size: cover;
+  --home-button-position: center;
+  --serverlist-brightness: 0.5;
+  --left-brightness: 0.62;
+  --middle-brightness: 0.5;
+  --right-brightness: 0.66;
+  --overlay-brightness: 0.5;
+  --gradient-primary: 181,58,178;
+  --gradient-secondary: 194,123,160;
+  --link-colour: #CA87F9;
+  --scrollbar-colour: rgb(232,147,188,0.35);
+  --gradient-direction: 320deg;
+  --tint-colour: 202,135,249;
+  --tint-brightness: 0.2;
+  --font: gg sans;
+  --window-padding: 20px;
+  --window-roundness: 10px;
+  --update-notice-1: none;
+}
+
+/* Any custom CSS below here */
+
+
